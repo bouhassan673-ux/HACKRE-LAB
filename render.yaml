@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: hackre-lab
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python lab.py
